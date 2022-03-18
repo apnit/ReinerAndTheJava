@@ -1,0 +1,55 @@
+{
+  "titansConfig": {
+    "ArmoredTitan": {
+      "face": {
+        "hp": 30,
+        "armor": {
+          "durability": 60,
+          "k": 1.8
+        }
+      },
+      "neck": {
+        "hp": 45,
+        "armor": {
+          "durability": 50,
+          "k": 2.1
+        }
+      },
+      "arm": {
+        "hp": 80,
+        "armor": {
+          "durability": 75,
+          "k": 3.4
+        }
+      },
+      "chest": {
+        "hp": 210,
+        "armor": {
+          "durability": 115,
+          "k": 12.2
+        }
+      },
+      "stomach": {
+        "hp": 50,
+        "armor": {
+          "durability": 100,
+          "k": 11.2
+        }
+      },
+      "leg": {
+        "hp": 55,
+        "armor": {
+          "durability": 110,
+          "k": 12.0
+        }
+      },
+      "foot": {
+        "hp": 45,
+        "armor": {
+          "durability": 76.3,
+          "k": 8.2
+        }
+      }
+    }
+  }
+}
