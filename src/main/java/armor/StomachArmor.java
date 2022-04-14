@@ -6,6 +6,6 @@ public class StomachArmor extends Armor {
     }
 
     public static StomachArmor create() {
-        return new StomachArmor(-1, -1);
+        return new StomachArmor(100, 11.2);
     }
 }

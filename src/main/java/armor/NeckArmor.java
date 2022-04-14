@@ -6,6 +6,6 @@ public class NeckArmor extends Armor {
     }
 
     public static NeckArmor create() {
-        return new NeckArmor(-1, -1);
+        return new NeckArmor(50, 2.1);
     }
 }

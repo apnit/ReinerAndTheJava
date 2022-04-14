@@ -6,6 +6,6 @@ public class LegArmor extends Armor {
     }
 
     public static LegArmor create() {
-        return new LegArmor(-1, -1);
+        return new LegArmor(110, 12);
     }
 }
