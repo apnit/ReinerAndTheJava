@@ -22,10 +22,21 @@ public abstract class Organ implements Damageable {
 
     @Override
     public boolean takeDamage(double force) {
-        return false;
+        if(armor.getDurability()<=0){
+            this.hp -= force;
+        }
+        else{
+            hp -= (force*calcResist(armor.getDurability()))/100;
+            armor.takeDamage(force);
+        }
+        hp = Math.round(hp*10)/10;
+        if(hp<=0)
+            return true;
+        else
+            return false;
     }
 
     private double calcResist(double x) {
-        return -1;
+        return (100 - (x/2));
     }
 }

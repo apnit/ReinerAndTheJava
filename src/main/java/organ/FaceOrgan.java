@@ -8,6 +8,6 @@ public class FaceOrgan extends Organ {
     }
 
     public static FaceOrgan create() {
-        return new FaceOrgan(-1);
+        return new FaceOrgan(30);
     }
 }

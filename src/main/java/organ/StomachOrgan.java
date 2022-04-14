@@ -8,6 +8,6 @@ public class StomachOrgan extends Organ {
     }
 
     public static StomachOrgan create() {
-        return new StomachOrgan(-1);
+        return new StomachOrgan(50);
     }
 }
