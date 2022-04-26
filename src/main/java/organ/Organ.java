@@ -13,7 +13,10 @@ public abstract class Organ implements Damageable {
     }
 
     public double getHp() {
-        return hp;
+        if(hp<=0)
+            return 0;
+        else
+            return hp;
     }
 
     public Armor getArmor() {
