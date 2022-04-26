@@ -118,6 +118,17 @@ public class ArmoredTitan {
     }
 
     public static ArmoredTitan create() {
-        return null;
+        return new ArmoredTitan(
+                FaceOrgan.create(),
+                NeckOrgan.create(),
+                ArmOrgan.create(),
+                ArmOrgan.create(),
+                ChestOrgan.create(),
+                StomachOrgan.create(),
+                LegOrgan.create(),
+                LegOrgan.create(),
+                FootOrgan.create(),
+                FootOrgan.create()
+        );
     }
 }

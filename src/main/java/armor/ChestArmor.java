@@ -6,6 +6,6 @@ public class ChestArmor extends Armor {
     }
 
     public static ChestArmor create() {
-        return new ChestArmor(-1, -1);
+        return new ChestArmor(115, 12.2);
     }
 }

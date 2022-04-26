@@ -6,6 +6,6 @@ public class FaceArmor extends Armor {
     }
 
     public static FaceArmor create() {
-        return new FaceArmor(-1, -1);
+        return new FaceArmor(60, 1.8);
     }
 }

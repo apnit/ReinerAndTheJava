@@ -6,6 +6,6 @@ public class ArmArmor extends Armor {
     }
     
     public static ArmArmor create() {
-        return new ArmArmor(-1, -1);
+        return new ArmArmor(75, 3.4);
     }
 }

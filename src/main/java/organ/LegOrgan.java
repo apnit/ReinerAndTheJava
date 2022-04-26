@@ -8,6 +8,6 @@ public class LegOrgan extends Organ {
     }
 
     public static LegOrgan create() {
-        return new LegOrgan(-1);
+        return new LegOrgan(55);
     }
 }

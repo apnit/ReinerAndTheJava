@@ -6,6 +6,6 @@ public class FootArmor extends Armor {
     }
 
     public static FootArmor create() {
-        return new FootArmor(-1, -1);
+        return new FootArmor(76.3, 8.2);
     }
 }
